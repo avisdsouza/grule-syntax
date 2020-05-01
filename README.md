@@ -1,2 +1,4 @@
-# grule-syntax
-VS Code Extension for grule rules syntax highlight
+# Grule Rules VSCode Extension
+
+## Features
+Syntax Highlight for .grl grule files
