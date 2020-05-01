@@ -1,0 +1,25 @@
+{
+    "name": "grule-syntax",
+    "displayName": "grule-syntax",
+    "description": "grule rule syntax highlight",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "grule",
+            "aliases": ["grule", "grule"],
+            "extensions": [".grl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "grule",
+            "scopeName": "source.grl",
+            "path": "./syntaxes/grule.tmLanguage.json"
+        }]
+    }
+}
