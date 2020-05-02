@@ -1,0 +1,80 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "grule",
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#operators"
+    },
+    {
+      "include": "#strings"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "comment": "Line comment",
+          "name": "comment.line.exclamation-mark.grule",
+          "begin": "//",
+          "beginCaptures": {
+            "0": {
+              "name": "punctuation.definition.comment.grule"
+            }
+          },
+          "end": "(?=\\n)"
+        },
+        {
+          "comment": "Block comment",
+          "name": "comment.block.grule",
+          "begin": "/\\*",
+          "end": "\\*/"
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.grule",
+          "match": "\\b(rule|salience|when|then|isNil|log|true|false|TRUE|FALSE)\\b"
+        }
+      ]
+    },
+    "operators": {
+      "patterns": [
+        {
+          "comment": "Assignment operators",
+          "name": "keyword.operator.assignment.grule",
+          "match": "(=(?!=)|:=)"
+        },
+        {
+          "comment": "Arithmetic operators",
+          "name": "keyword.operator.arithmetic.grule",
+          "match": "(/|//|\\+|-|\\*|\\*\\*)"
+        },
+        {
+          "comment": "Comparison operators",
+          "name": "keyword.operator.comparison.grule",
+          "match": "(?x)(< | > | == | /= | <= | >=)"
+        }
+      ]
+    },
+    "strings": {
+      "name": "string.quoted.double.grule",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.grule",
+          "match": "\\\\."
+        }
+      ]
+    }
+  },
+  "scopeName": "source.grl"
+}
