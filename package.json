@@ -2,7 +2,7 @@
     "name": "grule-syntax",
     "displayName": "Grule Rules",
     "description": "Grule Rules Syntax Highlighting",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "avisdsouza",
     "engines": {
         "vscode": "^1.44.0"
