@@ -2,7 +2,7 @@
     "name": "grule-syntax",
     "displayName": "Grule Rules",
     "description": "Grule Rules Syntax Highlighting",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "avisdsouza",
     "engines": {
         "vscode": "^1.44.0"
@@ -15,16 +15,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "grule",
-            "aliases": ["Grule Rules", "grule"],
-            "extensions": [".grl"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "grule",
-            "scopeName": "source.grl",
-            "path": "./syntaxes/grule.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "grule",
+                "aliases": [
+                    "Grule Rules",
+                    "grule"
+                ],
+                "extensions": [
+                    ".grl"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "grule",
+                "scopeName": "source.grl",
+                "path": "./syntaxes/grule.tmLanguage.json"
+            }
+        ]
     }
 }
