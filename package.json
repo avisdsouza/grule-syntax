@@ -3,8 +3,13 @@
     "displayName": "grule-syntax",
     "description": "grule rule syntax highlight",
     "version": "0.0.1",
+    "publisher": "avisdsouza",
     "engines": {
         "vscode": "^1.44.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/avisdsouza/grule-syntax.git"
     },
     "categories": [
         "Programming Languages"
