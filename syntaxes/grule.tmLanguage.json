@@ -20,7 +20,7 @@
       "patterns": [
         {
           "comment": "Line comment",
-          "name": "comment.line.exclamation-mark.grule",
+          "name": "comment.line.grule",
           "begin": "//",
           "beginCaptures": {
             "0": {
