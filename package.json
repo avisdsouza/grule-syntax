@@ -1,7 +1,7 @@
 {
     "name": "grule-syntax",
-    "displayName": "grule-syntax",
-    "description": "grule rule syntax highlight",
+    "displayName": "Grule Rules",
+    "description": "Grule Rules Syntax Highlighting",
     "version": "0.0.1",
     "publisher": "avisdsouza",
     "engines": {
@@ -17,7 +17,7 @@
     "contributes": {
         "languages": [{
             "id": "grule",
-            "aliases": ["grule", "grule"],
+            "aliases": ["Grule Rules", "grule"],
             "extensions": [".grl"],
             "configuration": "./language-configuration.json"
         }],
