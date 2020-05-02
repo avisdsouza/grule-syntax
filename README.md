@@ -1,4 +1,4 @@
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/ChFlick.firecode.svg)](https://marketplace.visualstudio.com/items?itemName=avisdsouza.grule-syntax)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/avisdsouza.grule-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=avisdsouza.grule-syntax)
 
 # Grule Rules VSCode Extension
 
